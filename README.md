@@ -113,9 +113,11 @@ Além de referenciar a liboqs, usamos a advapi32.lib para o suporte à geração
 
 # Prática
 
-#### 1. Descreva as dificuldades encontradas na instalação da biblioteca.
+#### 1. Descreva as dificuldades encontradas na instalação da biblioteca e tire um print do seu funcionamento. 
 
-#### 2. Analise o programa alice_kem.cpp. Observe que existem lugares para  
+#### 2. Analise o programa alice_kem.cpp. Observe que existem lugares para comentários demarcados como blocos n. Junto com seu grupo, coloque um comentário em cada uma dessas marcações descrevendo o que o trecho do programa está fazendo. 
+
+###
 
 # Entrega
 
