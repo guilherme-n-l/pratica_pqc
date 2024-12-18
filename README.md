@@ -42,6 +42,7 @@ O Ninja é um sistema de build simples, rápido e eficiente, projetado para auto
 
 3. Abra o editor de variáveis de sistema 
 
+![image](https://github.com/user-attachments/assets/28fbedc8-b826-40d9-899e-89cc6f418ea0)
 
 
 
