@@ -20,7 +20,7 @@ Precisamos de um compilador para C e C++, como o Microsoft C/C++ Compiler (MSVC)
 
 1. Baixe e instale o Visual Studios (https://visualstudio.microsoft.com/pt-br/vs/community).
 
-*Lembre-se de instalar todos os módulos associados a C/C++ no instalador, além de adicionar ao PATH. 
+*Lembre-se de adicionar ao PATH na instalação. 
 
 ### 2. CMake
 
