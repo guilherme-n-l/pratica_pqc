@@ -48,30 +48,31 @@ O Ninja é um sistema de build simples, rápido e eficiente, projetado para auto
 
 ### 4. Open Quantum Safe
 
-1. Clone o repositório do projeto
+Clone o repositório do projeto
 
 ```bash
 git clone -b main https://github.com/open-quantum-safe/liboqs.git
 cd liboqs
 ```
 
-2. Crie um diretório de build dentro do projeto:
+Crie um diretório de build dentro do projeto:
 
 ```bash
 mkdir build
 cd build
 ```
 
-2. Abra o terminal x64 Native Tools, disponibilizado após a instalação do Visual Studio. 
+Abra o terminal x64 Native Tools, disponibilizado após a instalação do Visual Studio. 
 
-2.1 Vá até o diretório build criado. Por exemplo:
+Vá até o diretório build criado. Por exemplo:
 
 ```cd C:\liboqs\build
 ```
 
-2.2 Na pasta build, execute o CMake.
+Na pasta build, execute o CMake.
 
-cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=cl ..
+```cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=cl ..
+```
 
 2.3 Execute o comando abaixo para compilar a biblioteca
 
