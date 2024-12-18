@@ -113,7 +113,7 @@ Além de referenciar a liboqs, usamos a advapi32.lib para o suporte à geração
 
 # Prática
 
-### 1. Descreva as dificuldades encontradas na instalação da biblioteca. 
+#### 1. Descreva as dificuldades encontradas na instalação da biblioteca. 
 
 
 
