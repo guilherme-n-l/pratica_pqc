@@ -84,6 +84,19 @@ ninja
 
 *Alguns problemas comuns estão associados com a presença de outros compiladores, como o MinGW. Para isso, retire as variáveis associadas a esses compiladores do PATH. 
 
+Se quiser testar a biblioteca, baixe o pytest (substitua pelo caminho correto):
+
+```bash
+C:\Users\nomeusuario\AppData\Local\Programs\Python\Python313\python.exe -m pip install pytest pytest-xdist pyyaml
+```
+
+E execute os testes no diretório build:
+
+
+```bash
+ninja run_tests
+```
+
 
 
 
