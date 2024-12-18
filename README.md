@@ -6,7 +6,11 @@ O programa Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov
 
 Conheça algumas iniciativas: 
 
+- liboqs (https://github.com/open-quantum-safe/liboqs)
+- pqcrypto (https://pqcrypto.org/)
+- pqclean (https://github.com/PQClean/PQClean)
 
+Nessa prática, utilizaremos a liboqs.
 
 # Instalação
 
