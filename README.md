@@ -40,9 +40,9 @@ O Ninja é um sistema de build simples, rápido e eficiente, projetado para auto
 
 2. Crie uma pasta chamada ninja em algum local do seu computador e coloque o arquivo ninja.exe dentro. 
 
-3. Abra o editor de variáveis de sistema 
+3. Abra o editor de variáveis de sistema e adicione ao PATH do usuário e do sistema o caminho da pasta onde o executável baixado está. 
 
-![image](https://github.com/user-attachments/assets/28fbedc8-b826-40d9-899e-89cc6f418ea0)
+
 
 # Exercícios
 
