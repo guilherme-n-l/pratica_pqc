@@ -99,7 +99,17 @@ ninja run_tests
 
 # Uso em programas
 
+Importe a biblitoeca no seu programa da seguinte forma:
 
+#include "oqs/oqs.h"
+
+Para compilar faça na x64 Native Tools, utilizando o caminho correto:
+
+```bash
+cl teste.cpp /I"C:\liboqs\build\include" /link "C:\liboqs\build\lib\oqs.lib" advapi32.lib
+``` 
+
+Além de referenciar a liboqs, usamos a advapi32.lib para o suporte à geração de números aleatórios seguros no Windows.
 
 # Exercícios
 
