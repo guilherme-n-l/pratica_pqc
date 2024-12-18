@@ -18,6 +18,10 @@ Nessa prática, utilizaremos a liboqs.
 
 Precisamos de um compilador de C e C++, como o Microsoft C/C++ Compiler (MSVC), para isso, instale o Visual Studios (https://visualstudio.microsoft.com/pt-br/vs/community). Lembre-se de instalar todos os módulos associados a C/C++ no instalador, além de adicionar ao PATH. 
 
+### 2. CMake
+
+Precisamos do CMake para configurar o projeto e criar os arquivos de build, ele não compila diretamente o código, mas é responsável por gerar os arquivos de configuração necessários para que sistemas de build possam compilar o código-fonte. Lembre-se de adicionar ao PATH na instalação. 
+
 ### 2. Ninja
 
 
