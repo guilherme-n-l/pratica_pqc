@@ -14,5 +14,9 @@ Nessa prática, utilizaremos a liboqs.
 
 # Instalação
 
-Precisamos de um compilador de C e C++, como o Microsoft C/C++ Compiler (MSVC), para isso, instale o Visual Studios (https://visualstudio.microsoft.com/pt-br/vs/community).
+### Visual Studio e MSVC
+
+Precisamos de um compilador de C e C++, como o Microsoft C/C++ Compiler (MSVC), para isso, instale o Visual Studios (https://visualstudio.microsoft.com/pt-br/vs/community). Lembre-se de instalar todos os módulos associados a C/C++ no instalador, além de adicionar ao PATH. 
+
+
 
