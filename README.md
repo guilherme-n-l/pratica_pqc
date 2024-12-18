@@ -111,7 +111,7 @@ cl teste.cpp /I"C:\liboqs\build\include" /link "C:\liboqs\build\lib\oqs.lib" adv
 
 Além de referenciar a liboqs, usamos a advapi32.lib para o suporte à geração de números aleatórios seguros no Windows.
 
-# Exercícios
+# Prática
 
 ### Exercício 1 
 
