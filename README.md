@@ -14,4 +14,5 @@ Nessa prática, utilizaremos a liboqs.
 
 # Instalação
 
+Precisamos de um compilador de C e C++, como o Microsoft C/C++ Compiler (MSVC), para isso, instale o Visual Studios (https://visualstudio.microsoft.com/pt-br/vs/community).
 
