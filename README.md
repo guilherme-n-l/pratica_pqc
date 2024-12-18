@@ -48,7 +48,9 @@ O Ninja é um sistema de build simples, rápido e eficiente, projetado para auto
 
 ### 4. Open Quantum Safe
 
-1. Baixe o 
+1. Clone o repositório do projeto
+
+
 
 2. Abra o terminal x64 Native Tools, disponibilizado após a instalação do Visual Studio. 
 
