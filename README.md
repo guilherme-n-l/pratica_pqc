@@ -24,7 +24,11 @@ Precisamos de um compilador para C e C++, como o Microsoft C/C++ Compiler (MSVC)
 
 ### 2. CMake
 
-Precisamos do CMake para configurar o projeto e criar os arquivos de build, ele não compila diretamente o código, mas é responsável por gerar os arquivos de configuração necessários para que sistemas de build possam compilar o código-fonte. Lembre-se de adicionar ao PATH na instalação. 
+Precisamos do CMake para configurar o projeto e criar os arquivos de build. 
+
+1. Baixe e instale o CMake (https://cmake.org/download/).
+
+*Lembre-se de instalar todos os módulos associados a C/C++ no instalador, além de adicionar ao PATH. 
 
 ### 2. Ninja
 
