@@ -117,11 +117,13 @@ Além de referenciar a liboqs, usamos a advapi32.lib para o suporte à geração
 
 #### 2. Analise o programa alice_kem.cpp. Observe que existem lugares para comentários demarcados como blocos n. Junto com seu grupo, coloque um comentário em cada uma dessas marcações descrevendo o que o trecho do programa está fazendo. 
 
-###
+#### 3. Modifique o programa 
 
-# Entrega
+#### 3. Faça o programa bob_kem.cpp. 
 
-#### 
+# Entregas
+
+
 
 
 
