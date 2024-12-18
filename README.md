@@ -113,15 +113,17 @@ Além de referenciar a liboqs, usamos a advapi32.lib para o suporte à geração
 
 # Prática
 
-#### 1. Descreva as dificuldades encontradas na instalação da biblioteca e tire um print do seu funcionamento. 
+#### 1. Descreva as dificuldades encontradas na instalação da biblioteca. 
 
-#### 2. Analise o programa alice_kem.cpp. Observe que existem lugares para comentários demarcados como blocos n. Junto com seu grupo, coloque um comentário em cada uma dessas marcações descrevendo o que o trecho do programa está fazendo. 
+#### 2. Tire um print da biblioteca em funcionamento. 
 
-#### 3. Modifique o programa 
+#### 3. Analise o programa alice_kem.cpp. Observe que existem lugares para comentários demarcados como blocos n. Junto com seu grupo, coloque um comentário em cada uma dessas marcações descrevendo o que o trecho do programa está fazendo. 
 
-#### 3. Faça o programa bob_kem.cpp. 
+#### 4. Modifique o programa para o ML-KEM operar com chaves de 1024 bits. 
 
-# Entregas
+#### 5. Faça o programa bob_kem.cpp (Encapsulamento). Ele deve gerar uma pré-chave simétrica e encriptá-la utilizando a chave pública gerada e disponbilizada por Alice, gerando um encriptado. Saída: chave às claras e chave encriptada. 
+
+#### 6. Faça o programa alice2_kem.cpp (Desencapsulamento). O programa deve receber o encriptad de Bob 
 
 
 
