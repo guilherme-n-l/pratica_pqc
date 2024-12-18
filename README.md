@@ -76,11 +76,15 @@ Na pasta build, execute o CMake.
 cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=cl ..
 ```
 
-2.3 Execute o comando abaixo para compilar a biblioteca
+Execute o comando abaixo para compilar a biblioteca
 
 ```bash
 ninja
 ```
+
+*Alguns problemas comuns estão associados com a presença de outros compiladores, como o MinGW. Para isso, retire as variáveis associadas a esses compiladores do PATH. 
+
+
 
 
 
