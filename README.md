@@ -16,6 +16,10 @@ Nessa prática, utilizaremos a liboqs.
 
 A instalação da biblioteca liboqs não é uma atividade trivial, para isso, abaixo segue a sugestão de um método facilitado. 
 
+### 0. Dependências Comuns
+
+Baixe e instale o Git e o Python.
+
 ### 1. Visual Studio e MSVC
 
 Precisamos de um compilador para C e C++, como o Microsoft C/C++ Compiler (MSVC), que está disponível de forma nativa no Visual Studio.
@@ -42,7 +46,11 @@ O Ninja é um sistema de build simples, rápido e eficiente, projetado para auto
 
 3. Abra o editor de variáveis de sistema e adicione ao PATH do usuário e do sistema o caminho da pasta onde o executável baixado está. 
 
+### 4. Open Quantum Safe
 
+1. Baixe o 
+
+2. Abra o terminal x64 Native Tools, disponibilizado após a instalação do Visual Studio. 
 
 # Exercícios
 
