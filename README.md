@@ -66,17 +66,20 @@ Abra o terminal x64 Native Tools, disponibilizado após a instalação do Visual
 
 Vá até o diretório build criado. Por exemplo:
 
-```cd C:\liboqs\build
+```bash
+cd C:\liboqs\build
 ```
 
 Na pasta build, execute o CMake.
 
-```cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=cl ..
+```bash
+cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=cl ..
 ```
 
 2.3 Execute o comando abaixo para compilar a biblioteca
 
-```ninja
+```bash
+ninja
 ```
 
 
