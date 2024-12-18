@@ -127,7 +127,7 @@ Além de referenciar a liboqs, usamos a advapi32.lib para o suporte à geração
 
 #### 7. Verifique se o processo foi feito corretamente. A chave às claras do programa bob_kem.cpp deve dar match com as chave às claras do programa alice2_kem.cpp
 
-#### 8. Após a pré-chave ser combinada, pesquise e escolha um método para gerar uma chave de maneira segura e de tamanho adequado para o uso no AES. Implemente um porgrama em Python (não em C) que leia o segredo compartilhado, gere uma chave para o AES e use-o através de alguma lib em Python (ex: PyCryptodome, como mostrada na aula passada). Garanta o funcionamento.
+#### 8. Após a pré-chave ser combinada, pesquise e escolha um método para gerar uma chave de maneira segura e de tamanho adequado para o uso no AES. Implemente um programa em Python (não em C) que leia o segredo compartilhado, gere uma chave para o AES e use-o através de alguma lib em Python (ex: PyCryptodome, como mostrada na aula passada). Garanta o funcionamento.
 
 #### EXTRA
 
