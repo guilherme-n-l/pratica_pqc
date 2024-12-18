@@ -129,7 +129,7 @@ Além de referenciar a liboqs, usamos a advapi32.lib para o suporte à geração
 
 #### 8. Após a pré-chave ser combinada, pesquise e escolha um método para gerar uma chave de maneira segura e de tamanho adequado para o uso no AES. Implemente um programa em Python (não em C) que leia o segredo compartilhado, gere uma chave para o AES e use-o através de alguma lib em Python (ex: PyCryptodome, como mostrada na aula passada). Garanta o funcionamento.
 
-#### EXTRA
+#### EXTRA. Crie um programa alice_signature.cpp que leia qualquer tipo de arquivo, gere o conjunto de chaves, assine usando o algoritmo pós-quântico ML-DSA. A saída deverá ser as chaves e a hash do arquivo assinado. Crie um porgrama bob_signature que verifique a assiantura utilizando a chave pública. 
 
 
 
