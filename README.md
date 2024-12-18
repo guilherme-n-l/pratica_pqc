@@ -50,6 +50,10 @@ O Ninja é um sistema de build simples, rápido e eficiente, projetado para auto
 
 1. Clone o repositório do projeto
 
+```bash
+git clone -b main https://github.com/open-quantum-safe/liboqs.git
+cd liboqs
+```
 
 
 2. Abra o terminal x64 Native Tools, disponibilizado após a instalação do Visual Studio. 
