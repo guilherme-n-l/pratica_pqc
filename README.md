@@ -32,9 +32,15 @@ O CMake é uma ferramenta de automação de construção de software. Ele não c
 
 *Lembre-se de instalar todos os módulos associados a C/C++ no instalador, além de adicionar ao PATH. 
 
-### 2. Ninja
+### 3. Ninja
 
 O Ninja é um sistema de build simples, rápido e eficiente, projetado para automatizar a compilação de software, especialmente em projetos grandes e complexos.
+
+1. Baixe a release do Ninja (https://github.com/ninja-build/ninja/releases/tag/v1.12.1).
+
+2. Crie uma pasta chamada ninja em algum local do seu computador e coloque o arquivo ninja.exe dentro. 
+
+3. Abra o editor de variáveis de sistema 
 
 
 
