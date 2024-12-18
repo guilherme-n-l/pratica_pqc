@@ -14,6 +14,8 @@ Nessa prática, utilizaremos a liboqs.
 
 # Instalação
 
+A instalação da biblioteca liboqs não é uma atividade trivial, para isso, abaixo segue a sugestão de um método facilitado. 
+
 ### 1. Visual Studio e MSVC
 
 Precisamos de um compilador para C e C++, como o Microsoft C/C++ Compiler (MSVC), que está disponível de forma nativa no Visual Studio.
@@ -31,6 +33,10 @@ O CMake é uma ferramenta de automação de construção de software. Ele não c
 *Lembre-se de instalar todos os módulos associados a C/C++ no instalador, além de adicionar ao PATH. 
 
 ### 2. Ninja
+
+O Ninja é um sistema de build simples, rápido e eficiente, projetado para automatizar a compilação de software, especialmente em projetos grandes e complexos.
+
+
 
 
 
