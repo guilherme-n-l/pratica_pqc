@@ -44,6 +44,11 @@ O Ninja é um sistema de build simples, rápido e eficiente, projetado para auto
 
 ![image](https://github.com/user-attachments/assets/28fbedc8-b826-40d9-899e-89cc6f418ea0)
 
+# Exercícios
+
+### Exercício 1 
+
+
 
 
 
