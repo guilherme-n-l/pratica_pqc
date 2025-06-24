@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "oqs/oqs.h"
+#include "oqs/kem.h"
 
 void write_to_file(const char *filename, const uint8_t *data, size_t length) {
     FILE *file = fopen(filename, "wb");

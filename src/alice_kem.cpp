@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
-#include "oqs/oqs.h"
+#include "oqs/kem.h"
 
 // Bloco 1
 void write_to_file(const char *filename, const uint8_t *data, size_t length) {
