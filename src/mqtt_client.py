@@ -1,4 +1,3 @@
-import os
 import paho.mqtt.client as mqtt
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
@@ -19,18 +18,18 @@ def load_key():
 aes_key = load_key()
 aesgcm = AESGCM(aes_key)
 
+FIXED_NONCE = b"000000000000"
+
 
 def encrypt_message(plaintext: str) -> bytes:
-    nonce = os.urandom(12)
-    ciphertext = aesgcm.encrypt(nonce, plaintext.encode(), None)
-    return nonce + ciphertext
+    ciphertext = aesgcm.encrypt(FIXED_NONCE, plaintext.encode(), None)
+    return FIXED_NONCE + ciphertext
 
 
 def decrypt_message(data: bytes) -> str:
     nonce = data[:12]
     ciphertext = data[12:]
-    plaintext = aesgcm.decrypt(nonce, ciphertext, None)
-    return plaintext.decode()
+    return aesgcm.decrypt(nonce, ciphertext, None).decode()
 
 
 def on_connect(client, userdata, flags, rc):
@@ -41,8 +40,9 @@ def on_connect(client, userdata, flags, rc):
 
 def on_message(client, userdata, msg):
     try:
+        print(f"\nReceived (ecrypted) on {msg.topic}: {msg.payload}")
         decrypted = decrypt_message(msg.payload)
-        print(f"Received (decrypted) on {msg.topic}: {decrypted}")
+        print(f"\nReceived (decrypted) on {msg.topic}: {decrypted}")
     except Exception as e:
         print(f"Failed to decrypt message: {e}")
 
